@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
 
     //mario
-    
+    var mario = 10
+    var kuni = 22
     // 名前テキストフィールド
     @IBOutlet weak var nameTextField: UITextField!
     // 電話番号テキストフィールド
