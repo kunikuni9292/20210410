@@ -38,6 +38,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         resultViewController.putExtras(key: Define.KEY_MONTH, value: Calendar(identifier: .gregorian).component(.month, from: datePicker.date))
         resultViewController.putExtras(key: Define.KEY_DAY_OF_MONTH, value: Calendar(identifier: .gregorian).component(.day, from: datePicker.date))
         navigationController?.pushViewController(resultViewController, animated: true)
+        
+        print("mario = \(mario)")
     }
     
     // returnボタンが押されたとき
